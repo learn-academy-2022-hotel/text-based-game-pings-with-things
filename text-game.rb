@@ -6,10 +6,12 @@ p intro
 
 def p1_logic
     p 'Type Option 1 or Option 2'
-    puts "Option 1 - Look at Shia
-    Option 2 - Ignore Shia"
+    puts 
+    'Option 1 - Look at Shia
+    Option 2 - Ignore Shia'
     input_variable = gets.chomp
-    if input_variable == "Option 1"
+    p ""
+    if input_variable.upcase == "OPTION 1"
        p "He's following you, about 30 feet back. He gets down on all fours and breaks into a sprint; He's gaining on you. Shia LaBeouf?"
     else
        p "Shia caught you. You're dead. Please play again."
@@ -22,10 +24,12 @@ p1_logic
     
     def p2_logic
         p 'Type Option 1 or Option 2'
-        puts "Option 1 - Look for your car
-        Option 2 - Ignore Shia"
+        puts 
+        'Option 1 - Look for your car
+        Option 2 - Ignore Shia'
         input_variable = gets.chomp
-        if input_variable == "Option 1"
+        p ' '
+        if input_variable.upcase == "OPTION 1"
            p "You're looking for you car but you're all turned around. He's almost upon you now. And you can see there's blood on his face. My God, there's blood everywhere!"
         else
            p "Shia caught you. You're dead. Please play again."
@@ -36,33 +40,90 @@ p1_logic
 p2_logic
 
 
+def p3_logic
+   p 'Type Option 1 or Option 2'
+   puts 
+   'Option 1 - Run for your life!
+   Option 2 - Ignore Shia'
+   input_variable = gets.chomp
+   p ""
+   if input_variable.upcase == "OPTION 1"
+      p "Running for you life (from Shia LaBeouf.) He's brandishing a knife (It's Shia LaBeouf.) Lurking in the shadows. Hollywood superstar Shia LaBeouf"
+   else
+      p "Shia caught you. You're dead. Please play again."
+      abort
+   end
+end
 
-# Running for you life (from Shia LaBeouf)
-# He's brandishing a knife (it's Shia LaBeouf)
-# Lurking in the shadows
-# Hollywood superstar Shia LaBeouf
+p3_logic
 
-# Living in the woods (Shia LaBeouf)
-# Killing for sport (Shia LaBeouf)
-# Eating all the bodies
-# Actual cannibal Shia LaBeouf
+def p4_logic
+   p 'Type Option 1 or Option 2'
+   puts 
+   'Option 1 - Look around!
+   Option 2 - Ignore Shia'
+   input_variable = gets.chomp
+   p ""
+   if input_variable.upcase == "OPTION 1"
+      p "Now it's dark, and you seem to have lost him. But you're hopelessly lost yourself. Stranded with a murderer. You creep silently through the underbrush"
+   else
+      p "Shia caught you. You're dead. Please play again."
+      abort
+   end
+end
 
-# Now it's dark, and you seem to have lost him
-# But you're hopelessly lost yourself
-# Stranded with a murderer
-# You creep silently through the underbrush
+p4_logic
 
-# Aha! In the distance
-# A small cottage with a light on
-# Hope! You move stealthily toward it
-# But your leg! Ah! It's caught in a bear trap!
+def p4_logic
+   p 'Type Option 1 or Option 2'
+   puts 
+   'Option 1 - Look around!
+   Option 2 - Ignore Shia'
+   input_variable = gets.chomp
+   p ""
+   if input_variable.upcase == "OPTION 1"
+      p "Aha! In the distance. A small cottage with a light on. Hope! You move stealthily toward it. But your leg! Ah! It's caught in a bear trap!"
+   else
+      p "Shia caught you. You're dead. Please play again."
+      abort
+   end
+end
 
-# Gnawing off your leg (quiet, quiet)
-# Limping to the cottage (quiet, quiet)
-# Now you're on the doorstep
-# Sitting inside
-# Shia LaBeouf
+p4_logic
 
+def p5_logic
+   p 'Type Option 1 or Option 2'
+   puts 
+   'Option 1 - Look around!
+   Option 2 - Ignore Shia'
+   input_variable = gets.chomp
+   p ""
+   if input_variable.upcase == "OPTION 1"
+      p " Gnawing off your leg (quiet, quiet). Limping to the cottage (quiet, quiet). Now you're on the doorstep. Sitting inside. Shia LaBeouf"
+   else
+      p "Shia caught you. You're dead. Please play again."
+      abort
+   end
+end
+
+p5_logic
+
+def p6_logic
+   p 'Type Option 1 or Option 2'
+   puts 
+   'Option 1 - Look around!
+   Option 2 - Ignore Shia'
+   input_variable = gets.chomp
+   p ""
+   if input_variable.upcase == "OPTION 1"
+      p " Gnawing off your leg (quiet, quiet). Limping to the cottage (quiet, quiet). Now you're on the doorstep. Sitting inside. Shia LaBeouf"
+   else
+      p "Shia caught you. You're dead. Please play again."
+      abort
+   end
+end
+
+p5_logic
 # Sharpening an axe (Shia LaBeouf)
 # But he doesn't hear you enter (Shia LaBeouf)
 # You're sneaking up behind him
